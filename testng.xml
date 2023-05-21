@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Cascaderack Suite">
+	<test name="Test">
+		<parameter name="emailid" value="gokulasuriya.kvp@gmail.com" />
+		<parameter name="password" value="NRtxdJbe3D3yCSe" />
+		<classes>
+			<class name="tests.ProductsListingPageTest" />
+			<class name="tests.ProductDetailsPageTest" />
+			<class name="tests.CartPageTest" />
+			<class name="tests.CheckoutPageTest" />
+		</classes>
+	</test>
+</suite> 

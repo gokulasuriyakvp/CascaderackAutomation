@@ -1,0 +1,154 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>15/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat May 20 16:01:25 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>407 seconds (407138 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.ProductsListingPageTest.checkCategoryCard()'><b>checkCategoryCard</b><br>Test class: tests.ProductsListingPageTest</td>
+<td></td>
+<td>0</td>
+<td>tests.ProductsListingPageTest@418e7838</td></tr>
+<tr>
+<td title='tests.CartPageTest.checkAddToCartFunctionality()'><b>checkAddToCartFunctionality</b><br>Test class: tests.CartPageTest</td>
+<td></td>
+<td>28</td>
+<td>tests.CartPageTest@64cd705f</td></tr>
+<tr>
+<td title='tests.CheckoutPageTest.checkCheckoutUrl()'><b>checkCheckoutUrl</b><br>Test class: tests.CheckoutPageTest</td>
+<td></td>
+<td>46</td>
+<td>tests.CheckoutPageTest@9225652</td></tr>
+<tr>
+<td title='tests.ProductsListingPageTest.checkProduct()'><b>checkProduct</b><br>Test class: tests.ProductsListingPageTest</td>
+<td></td>
+<td>0</td>
+<td>tests.ProductsListingPageTest@418e7838</td></tr>
+<tr>
+<td title='tests.CartPageTest.checkCartPage()'><b>checkCartPage</b><br>Test class: tests.CartPageTest</td>
+<td></td>
+<td>30</td>
+<td>tests.CartPageTest@64cd705f</td></tr>
+<tr>
+<td title='tests.CheckoutPageTest.checkCheckoutPageComponents()'><b>checkCheckoutPageComponents</b><br>Test class: tests.CheckoutPageTest</td>
+<td></td>
+<td>6</td>
+<td>tests.CheckoutPageTest@9225652</td></tr>
+<tr>
+<td title='tests.ProductsListingPageTest.checkSortByOptionInCategoryPage()'><b>checkSortByOptionInCategoryPage</b><br>Test class: tests.ProductsListingPageTest</td>
+<td></td>
+<td>18</td>
+<td>tests.ProductsListingPageTest@418e7838</td></tr>
+<tr>
+<td title='tests.ProductsListingPageTest.checkFeaturedProductsTitle()'><b>checkFeaturedProductsTitle</b><br>Test class: tests.ProductsListingPageTest</td>
+<td></td>
+<td>0</td>
+<td>tests.ProductsListingPageTest@418e7838</td></tr>
+<tr>
+<td title='tests.ProductDetailsPageTest.checkControls()'><b>checkControls</b><br>Test class: tests.ProductDetailsPageTest</td>
+<td></td>
+<td>0</td>
+<td>tests.ProductDetailsPageTest@a9cd3b1</td></tr>
+<tr>
+<td title='tests.ProductDetailsPageTest.checkProductWithListingPage()'><b>checkProductWithListingPage</b><br>Test class: tests.ProductDetailsPageTest</td>
+<td></td>
+<td>0</td>
+<td>tests.ProductDetailsPageTest@a9cd3b1</td></tr>
+<tr>
+<td title='tests.ProductDetailsPageTest.checkProductItemCount()'><b>checkProductItemCount</b><br>Test class: tests.ProductDetailsPageTest</td>
+<td></td>
+<td>1</td>
+<td>tests.ProductDetailsPageTest@a9cd3b1</td></tr>
+<tr>
+<td title='tests.CheckoutPageTest.checkContinueToPaymentOptionErrorCase()'><b>checkContinueToPaymentOptionErrorCase</b><br>Test class: tests.CheckoutPageTest</td>
+<td></td>
+<td>49</td>
+<td>tests.CheckoutPageTest@9225652</td></tr>
+<tr>
+<td title='tests.ProductsListingPageTest.checkCategoryPage()'><b>checkCategoryPage</b><br>Test class: tests.ProductsListingPageTest</td>
+<td></td>
+<td>15</td>
+<td>tests.ProductsListingPageTest@418e7838</td></tr>
+<tr>
+<td title='tests.ProductsListingPageTest.checkSectionTitle()'><b>checkSectionTitle</b><br>Test class: tests.ProductsListingPageTest</td>
+<td></td>
+<td>0</td>
+<td>tests.ProductsListingPageTest@418e7838</td></tr>
+<tr>
+<td title='tests.CartPageTest.checkCartIcon()'><b>checkCartIcon</b><br>Test class: tests.CartPageTest</td>
+<td></td>
+<td>0</td>
+<td>tests.CartPageTest@64cd705f</td></tr>
+</table><p>
+</body>
+</html>

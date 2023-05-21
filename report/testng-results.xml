@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-20T16:01:25 IST" name="Cascaderack Suite" finished-at="2023-05-20T16:08:12 IST" duration-ms="407138">
+    <groups>
+    </groups>
+    <test started-at="2023-05-20T16:01:25 IST" name="Test" finished-at="2023-05-20T16:08:12 IST" duration-ms="407138">
+      <class name="tests.CheckoutPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CheckoutPageTest@9225652]" started-at="2023-05-20T16:05:42 IST" name="setup" finished-at="2023-05-20T16:06:08 IST" duration-ms="26816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup3(java.lang.String,java.lang.String)[pri:0, instance:tests.CheckoutPageTest@9225652]" started-at="2023-05-20T16:06:08 IST" name="setup3" finished-at="2023-05-20T16:06:29 IST" duration-ms="20221" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gokulasuriya.kvp@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NRtxdJbe3D3yCSe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup3 -->
+        <test-method signature="checkCheckoutUrl()[pri:1, instance:tests.CheckoutPageTest@9225652]" started-at="2023-05-20T16:06:29 IST" name="checkCheckoutUrl" finished-at="2023-05-20T16:07:15 IST" duration-ms="46704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCheckoutUrl -->
+        <test-method signature="checkCheckoutPageComponents()[pri:2, instance:tests.CheckoutPageTest@9225652]" started-at="2023-05-20T16:07:15 IST" name="checkCheckoutPageComponents" finished-at="2023-05-20T16:07:22 IST" duration-ms="6829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCheckoutPageComponents -->
+        <test-method signature="checkContinueToPaymentOptionErrorCase()[pri:3, instance:tests.CheckoutPageTest@9225652]" started-at="2023-05-20T16:07:22 IST" name="checkContinueToPaymentOptionErrorCase" finished-at="2023-05-20T16:08:12 IST" duration-ms="49373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContinueToPaymentOptionErrorCase -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CheckoutPageTest@9225652]" started-at="2023-05-20T16:08:12 IST" name="tearDown" finished-at="2023-05-20T16:08:12 IST" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CheckoutPageTest -->
+      <class name="tests.CartPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CartPageTest@64cd705f]" started-at="2023-05-20T16:04:02 IST" name="setup" finished-at="2023-05-20T16:04:23 IST" duration-ms="21587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="checkLogin(java.lang.String,java.lang.String)[pri:0, instance:tests.CartPageTest@64cd705f]" started-at="2023-05-20T16:04:23 IST" name="checkLogin" finished-at="2023-05-20T16:04:42 IST" duration-ms="18628" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gokulasuriya.kvp@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NRtxdJbe3D3yCSe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLogin -->
+        <test-method signature="checkCartIcon()[pri:1, instance:tests.CartPageTest@64cd705f]" started-at="2023-05-20T16:04:42 IST" name="checkCartIcon" finished-at="2023-05-20T16:04:43 IST" duration-ms="828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCartIcon -->
+        <test-method signature="checkAddToCartFunctionality()[pri:2, instance:tests.CartPageTest@64cd705f]" started-at="2023-05-20T16:04:43 IST" name="checkAddToCartFunctionality" finished-at="2023-05-20T16:05:11 IST" duration-ms="28697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAddToCartFunctionality -->
+        <test-method signature="checkCartPage()[pri:3, instance:tests.CartPageTest@64cd705f]" started-at="2023-05-20T16:05:11 IST" name="checkCartPage" finished-at="2023-05-20T16:05:41 IST" duration-ms="30153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCartPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CartPageTest@64cd705f]" started-at="2023-05-20T16:05:41 IST" name="tearDown" finished-at="2023-05-20T16:05:42 IST" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CartPageTest -->
+      <class name="tests.ProductsListingPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductsListingPageTest@418e7838]" started-at="2023-05-20T16:01:25 IST" name="setup" finished-at="2023-05-20T16:02:35 IST" duration-ms="70088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkSectionTitle()[pri:1, instance:tests.ProductsListingPageTest@418e7838]" started-at="2023-05-20T16:02:35 IST" name="checkSectionTitle" finished-at="2023-05-20T16:02:36 IST" duration-ms="881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSectionTitle -->
+        <test-method signature="checkFeaturedProductsTitle()[pri:2, instance:tests.ProductsListingPageTest@418e7838]" started-at="2023-05-20T16:02:36 IST" name="checkFeaturedProductsTitle" finished-at="2023-05-20T16:02:36 IST" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFeaturedProductsTitle -->
+        <test-method signature="checkCategoryCard()[pri:3, instance:tests.ProductsListingPageTest@418e7838]" started-at="2023-05-20T16:02:36 IST" name="checkCategoryCard" finished-at="2023-05-20T16:02:36 IST" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCategoryCard -->
+        <test-method signature="checkCategoryPage()[pri:4, instance:tests.ProductsListingPageTest@418e7838]" started-at="2023-05-20T16:02:36 IST" name="checkCategoryPage" finished-at="2023-05-20T16:02:52 IST" duration-ms="15654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCategoryPage -->
+        <test-method signature="checkSortByOptionInCategoryPage()[pri:5, instance:tests.ProductsListingPageTest@418e7838]" started-at="2023-05-20T16:02:52 IST" name="checkSortByOptionInCategoryPage" finished-at="2023-05-20T16:03:10 IST" duration-ms="18011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSortByOptionInCategoryPage -->
+        <test-method signature="checkProduct()[pri:6, instance:tests.ProductsListingPageTest@418e7838]" started-at="2023-05-20T16:03:10 IST" name="checkProduct" finished-at="2023-05-20T16:03:10 IST" duration-ms="641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductsListingPageTest@418e7838]" started-at="2023-05-20T16:03:10 IST" name="tearDown" finished-at="2023-05-20T16:03:10 IST" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ProductsListingPageTest -->
+      <class name="tests.ProductDetailsPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductDetailsPageTest@a9cd3b1]" started-at="2023-05-20T16:03:10 IST" name="setup" finished-at="2023-05-20T16:03:32 IST" duration-ms="21749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup2()[pri:0, instance:tests.ProductDetailsPageTest@a9cd3b1]" started-at="2023-05-20T16:03:32 IST" name="setup2" finished-at="2023-05-20T16:04:00 IST" duration-ms="27559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup2 -->
+        <test-method signature="checkProductWithListingPage()[pri:1, instance:tests.ProductDetailsPageTest@a9cd3b1]" started-at="2023-05-20T16:04:00 IST" name="checkProductWithListingPage" finished-at="2023-05-20T16:04:00 IST" duration-ms="388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkProductWithListingPage -->
+        <test-method signature="checkProductItemCount()[pri:2, instance:tests.ProductDetailsPageTest@a9cd3b1]" started-at="2023-05-20T16:04:00 IST" name="checkProductItemCount" finished-at="2023-05-20T16:04:01 IST" duration-ms="1101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkProductItemCount -->
+        <test-method signature="checkControls()[pri:3, instance:tests.ProductDetailsPageTest@a9cd3b1]" started-at="2023-05-20T16:04:01 IST" name="checkControls" finished-at="2023-05-20T16:04:01 IST" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkControls -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductDetailsPageTest@a9cd3b1]" started-at="2023-05-20T16:04:01 IST" name="tearDown" finished-at="2023-05-20T16:04:02 IST" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ProductDetailsPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Cascaderack Suite -->
+</testng-results>
