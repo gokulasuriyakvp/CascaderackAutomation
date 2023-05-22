@@ -14,7 +14,7 @@ import pages.ProductsListingPage;
 public class CartPageTest extends BasePage {
 	@BeforeClass(alwaysRun = true)
 	@Parameters({ "emailid", "password" })
-	public void checkLogin(String emailid, String password) throws InterruptedException {
+	public void setup4(String emailid, String password) throws InterruptedException {
 		LoginPage loginpage = new LoginPage(driver);
 		loginpage.login(emailid, password);
 	}
